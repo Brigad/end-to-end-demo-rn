@@ -1,0 +1,48 @@
+# Dependency directories
+node_modules/
+yarn-error.log
+.cache/
+
+# Coverage directories used by tools like istanbul
+coverage/
+
+# MacOS
+.DS_Store
+
+# iCloud
+.nosync
+
+# Blackbox files
+/packages/util-workspace/scripts/config.onesky.js
+
+# TS build info
+tsconfig.tsbuildinfo
+
+*.dSYM.zip
+
+# yarn stuff
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+## <anubis> ##
+packages/service-job-board-mobile-brigader/android/app/fastlane_key.json
+packages/service-job-board-mobile-brigader/ios/fastlane/AuthKey_GQNL5Q5CBJ.p8
+packages/service-job-board-mobile-brigader/android/app/.env.android.json
+packages/service-job-board-mobile-business/android/app/.env.android.json
+packages/service-job-board-mobile-business/android/app/fastlane_key.json
+packages/service-job-board-mobile-business/ios/fastlane/AuthKey_GQNL5Q5CBJ.p8
+## </anubis> ##
+
+# Terraform
+
+.terraform
+.terraform.lock.hcl
+
+# Terragrunt
+
+.terragrunt-cache
