@@ -46,3 +46,7 @@ packages/service-job-board-mobile-business/ios/fastlane/AuthKey_GQNL5Q5CBJ.p8
 # Terragrunt
 
 .terragrunt-cache
+
+# Appium logs
+
+appium.log
